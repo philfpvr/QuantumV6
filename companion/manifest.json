@@ -1,0 +1,26 @@
+{
+	"id": "vislink-quantum6",
+	"name": "vislink-quantum6",
+	"shortname": "vislink-quantum6",
+	"description": "vislink-quantum6 - stream status and stop/start",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "",
+	"bugs": "",
+	"maintainers": [
+		{
+			"name": "Mr Phil",
+			"email": "phil@focalpointvr.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "VisLink",
+	"products": ["Quantum v6"],
+	"keywords": []
+}

@@ -1,0 +1,40 @@
+system: ** Starting Connection from "C:\companion-module-dev\vislink-quantum v6\main.js" **
+system: ** Connection started **
+Starting up module class: ModuleInstance
+Sentry disabled
+Module-host accepted registration
+Module initialized with config: { username: 'root', password: 'root', hostname: '10.0.10.104' }
+Current variables:
+Updating actions...
+Updating feedback definitions...
+Updating variable definitions...
+Setting variable definitions...
+Variable definitions updated.
+Variables after updating definitions:
+Received value for feedback: { parseVariablesInString: [AsyncFunction: parseVariablesInString] }
+Value is not in the expected format. Using default color.
+Received value for feedback: { parseVariablesInString: [AsyncFunction: parseVariablesInString] }
+Value is not in the expected format. Using default color.
+Starting HTTP PUT request...
+Constructed PUT request URL: http://10.0.10.104/api/streaming/qstreamcfg/udp/0/?enabled=true
+Making PUT request to: http://10.0.10.104/api/streaming/qstreamcfg/udp/0/?enabled=true
+Request Headers: { Authorization: 'Basic cm9vdDpyb290' }
+Constructed PUT request URL: http://10.0.10.104/api/streaming/qstreamcfg/udp/0/?enabled=true
+Request Headers: { Authorization: 'Basic cm9vdDpyb290' }
+Network connection status: 200
+Received PUT response: { alert: 'success', message: 'request succeeded' }
+Request succeeded
+Setting variable HTTP-PUT-Response to [object Object]
+HTTP-PUT-Response variable set to: { alert: 'success', message: 'request succeeded' }
+Received HTTP PUT response: { alert: 'success', message: 'request succeeded' }
+Setting variable HTTP-PUT-Response to [object Object]
+Setting feedback HTTPRequestStatus to true
+Feedback HTTPRequestStatus set to true
+Starting HTTP GET request...
+Constructed GET request URL: http://10.0.10.104/api/streaming/qstreamcfg/udp/0
+Making GET request to: http://10.0.10.104/api/streaming/qstreamcfg/udp/0
+Request Headers: { headers: { Authorization: 'Basic cm9vdDpyb290' } }
+Network connection status: 200
+error: Error: Response data is not in the expected format
+Error occurred during HTTP GET request: Cannot read properties of null (reading 'data')
+Received GET response: { enabled: true, address: '192.168.0.55:5004' }
